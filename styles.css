@@ -3,8 +3,8 @@
 }
 
 .wrapper {
-  width: 500px;
-  height: 250px;
+  width: 550px;
+  height: 280px;
   background-color: rgb(29, 31, 46);
   border-radius: 50px;
   margin: 20px 20px;
@@ -68,4 +68,9 @@
   color: #ffd000;
   font-family: Arial;
   font-size: 20px;
+}
+.error-image {
+  color: rgb(245, 41, 41);
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 10px;
 }
