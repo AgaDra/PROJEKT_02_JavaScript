@@ -4,29 +4,68 @@
 
 .wrapper {
   width: 500px;
-  height: 300px;
-  background-color: beige;
+  height: 250px;
+  background-color: rgb(29, 31, 46);
   border-radius: 50px;
   margin: 20px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
+.icones {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+  gap: 20px;
+}
+.pln {
+  display: flex;
+  align-items: center;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   gap: 10px;
 }
-
-h1 {
-  color: rgb(84, 81, 99);
-  font-size: 40px;
-  margin-bottom: 40px;
+.heading {
+  color: white;
+  font-size: 35px;
+  font-family: Arial;
+  margin-bottom: 25px;
+}
+.inputPlace {
+  border-radius: 16px;
+  border: 1px solid rgb(29, 31, 46);
+  color: rgb(29, 31, 46);
 }
 
-.catchError {
-  color: red;
-  padding: 20px;
+.selectPlace {
+  border-radius: 16px;
+  border: 1px solid rgb(29, 31, 46);
+  background-color: aquamarine;
+  color: rgb(29, 31, 46);
+  font-family: Arial;
+}
+
+.btn {
+  border-radius: 16px;
+  border: 1px solid rgb(29, 31, 46);
+  color: rgb(29, 31, 46);
+  font-family: Arial;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.outcome {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.outcome-score {
+  color: #ffd000;
+  font-family: Arial;
+  font-size: 20px;
 }
