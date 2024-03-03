@@ -3,8 +3,8 @@
 }
 
 .wrapper {
-  width: 550px;
-  height: 280px;
+  width: 450px;
+  height: 250px;
   background-color: rgb(29, 31, 46);
   border-radius: 50px;
   margin: 20px 20px;
@@ -69,7 +69,7 @@
 .outcome-score {
   color: #ffd000;
   font-family: Arial;
-  font-size: 20px;
+  font-size: 18px;
 }
 .error-image {
   color: rgb(245, 41, 41);
