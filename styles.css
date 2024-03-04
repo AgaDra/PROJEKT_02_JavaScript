@@ -38,6 +38,7 @@
   margin-bottom: 25px;
 }
 .inputPlace {
+  width: 140px;
   border-radius: 16px;
   border: 1px solid rgb(29, 31, 46);
   color: rgb(29, 31, 46);
@@ -75,4 +76,20 @@
   color: rgb(245, 41, 41);
   font-family: "Courier New", Courier, monospace;
   padding-top: 10px;
+}
+.pln-icon {
+  color: #ffd000;
+}
+
+.eur-icon {
+  color: #2ba4eb;
+}
+.usd-icon {
+  color: #25dd5c;
+}
+.chf-icon {
+  color: #b682e0;
+}
+.arrow-icon {
+  color: white;
 }
